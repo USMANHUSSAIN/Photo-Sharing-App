@@ -5,24 +5,15 @@ import Card from '@mui/material/Card';
 import CssBaseline from '@mui/material/CssBaseline';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Link from '@mui/material/Link';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 import {onAuthStateChanged, signOut} from "firebase/auth";
 import {auth} from '../firebase';
-import {NavLink, useNavigate} from 'react-router-dom';
+import {useNavigate} from 'react-router-dom';
 import {ImageGallery} from "@rainbow-modules/storage";
 
 import '../App.css';
 import Button from "@mui/material/Button";
-import {Label} from "@mui/icons-material";
-import Box from "@mui/material/Box";
-import Avatar from "@mui/material/Avatar";
-import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
-import Grid from "@mui/material/Grid";
-import TextField from "@mui/material/TextField";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import Checkbox from "@mui/material/Checkbox";
 
 const defaultTheme = createTheme();
 

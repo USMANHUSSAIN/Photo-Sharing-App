@@ -3,13 +3,11 @@ import Home from './pages/Home';
 import Signup from './pages/Signup';
 import Login from './pages/Login';
 import { Routes, Route } from 'react-router-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
 import ProtectedRoute from './components/widgets/ProtectedRoute';
 import { useDispatch, useSelector } from 'react-redux';
 import { getCurrentUser } from './store/features/userSlice';
 import NotFound from './pages/NotFound';
 import firebaseApp from "./firebase";
-import Gallery from "./components/widgets/Gallery";
 import {RainbowFirebaseApp} from "@rainbow-modules/app";
 
 function App() {
